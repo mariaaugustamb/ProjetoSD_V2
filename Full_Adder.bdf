@@ -372,10 +372,6 @@ applicable agreement for further details.
 	(pt 728 536)
 )
 (connector
-	(pt 848 512)
-	(pt 848 520)
-)
-(connector
 	(pt 848 520)
 	(pt 848 536)
 )
@@ -407,10 +403,6 @@ applicable agreement for further details.
 	(pt 864 616)
 	(pt 1144 616)
 	(bus)
-)
-(connector
-	(pt 864 512)
-	(pt 864 520)
 )
 (connector
 	(pt 624 616)
@@ -564,9 +556,7 @@ applicable agreement for further details.
 (junction (pt 1144 112))
 (junction (pt 1144 616))
 (junction (pt 1128 200))
-(junction (pt 848 520))
 (junction (pt 864 616))
-(junction (pt 864 520))
 (junction (pt 624 616))
 (junction (pt 416 616))
 (junction (pt 864 112))
