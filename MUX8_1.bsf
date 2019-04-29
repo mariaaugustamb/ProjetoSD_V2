@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 112 240)
+	(rect 16 16 160 208)
 	(text "MUX8_1" (rect 5 0 52 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 208 25 220)(font "Arial" ))
+	(text "inst" (rect 8 176 25 188)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -82,32 +82,18 @@ applicable agreement for further details.
 	(port
 		(pt 0 160)
 		(input)
-		(text "C1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "C1" (rect 21 155 36 169)(font "Arial" (font_size 8)))
-		(line (pt 0 160)(pt 16 160)(line_width 1))
+		(text "Seletor[2..0]" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "Seletor[2..0]" (rect 21 155 89 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
 	)
 	(port
-		(pt 0 176)
-		(input)
-		(text "C2" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "C2" (rect 21 171 36 185)(font "Arial" (font_size 8)))
-		(line (pt 0 176)(pt 16 176)(line_width 1))
-	)
-	(port
-		(pt 0 192)
-		(input)
-		(text "C3" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "C3" (rect 21 187 36 201)(font "Arial" (font_size 8)))
-		(line (pt 0 192)(pt 16 192)(line_width 1))
-	)
-	(port
-		(pt 96 32)
+		(pt 144 32)
 		(output)
 		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
-		(text "OUT" (rect 51 27 75 41)(font "Arial" (font_size 8)))
-		(line (pt 96 32)(pt 80 32)(line_width 1))
+		(text "OUT" (rect 99 27 123 41)(font "Arial" (font_size 8)))
+		(line (pt 144 32)(pt 128 32)(line_width 1))
 	)
 	(drawing
-		(rectangle (rect 16 16 80 208)(line_width 1))
+		(rectangle (rect 16 16 128 176)(line_width 1))
 	)
 )
